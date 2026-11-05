@@ -15,8 +15,15 @@
 - Temperature and top-p, in one sentence each
 - Embedding vs. generation models
 
+## How sessions get logged
+
+Each session is recorded on video (Bishow's YouTube, *AI Journey* playlist).
+The link goes in the table below; the written entry is built from the video —
+what was run, what the numbers were, what broke. Video = the proof,
+this page = the searchable record.
+
 ## Log
 
-| Date | Session | What happened |
-|---|---|---|
-| — | — | Journey starts this week |
+| Date | Session | What happened | Video |
+|---|---|---|---|
+| — | — | Journey starts this week | — |
