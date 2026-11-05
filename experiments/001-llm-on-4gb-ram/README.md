@@ -8,7 +8,8 @@
 
 - Runtime: [Ollama](https://ollama.com) (llama.cpp under the hood)
 - Models: `qwen2.5:3b` and `llama3.2:3b`, Q4 quantization (~2 GB on disk)
-- Machine: *(record CPU / RAM / OS when run)*
+- Machine: Intel Core i7-1255U (12 threads), 16 GB RAM, Intel Iris Xe integrated graphics, Windows 11 64-bit — Bishow's laptop "Rabison"
+- Simulating the 4 GB VPS honestly: the models' on-disk/RAM footprint *is* the 4 GB test — a model that needs more than ~4 GB resident can't serve on that VPS, whatever the host machine has. (Optional stricter run: WSL2 with a 4 GB memory cap in `.wslconfig`.)
 - Script: [`bench.py`](bench.py) — warms the model up, then times a fixed generation and reports tokens/second from Ollama's own counters
 - Prompts: one short factual prompt, one product-description prompt, one summarization prompt
 
