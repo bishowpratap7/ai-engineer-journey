@@ -17,10 +17,15 @@
 
 ## How sessions get logged
 
-Each session is recorded on video (Bishow's YouTube, *AI Journey* playlist).
-The link goes in the table below; the written entry is built from the video —
-what was run, what the numbers were, what broke. Video = the proof,
-this page = the searchable record.
+**The pipeline:** stream the session live on **Twitch** from OBS — while OBS
+also records a clean local copy at the same time. The local recording goes to
+**YouTube** (*AI Journey* playlist on @bishowpandey); the Twitch VOD is just a
+backup, so its 7-day expiry doesn't matter. The YouTube link goes in the table
+below; the written entry is built from the video — what was run, what the
+numbers were, what broke. Video = the proof, this page = the searchable record.
+
+OBS notes for Rabison (i7-1255U): recording quality "Same as stream" costs no
+extra CPU; Intel Quick Sync handles the stream encode.
 
 ## Log
 
